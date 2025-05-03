@@ -1,7 +1,7 @@
 {
     "name": "My Web App",
     "short_name": "WebApp",
-    "start_url": "/",
+    "start_url": "/nymusic/",
     "display": "standalone",  // 주소창 없는 앱처럼 보이게
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
