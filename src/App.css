@@ -1,0 +1,50 @@
+.main{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/main.png');
+  background-size: cover;   /* 배경 이미지 크기 조정 */
+  background-position: center;  /* 배경 이미지 위치 조정 */
+}
+.evt-link{position: absolute;
+  top:44%;
+  width: 100%;height: 50px;}
+.buy-link{position: absolute;
+    top:38%;
+    width: 100%;height: 50px;
+}
+.back-link{position: absolute;
+      top:20px;
+      width: 50px;height: 50px;}
+.evt{  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/evt.png');
+  background-size: cover;   /* 배경 이미지 크기 조정 */
+  background-position: center;  /* 배경 이미지 위치 조정 */
+}
+.buy{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/buy.png');
+  background-size: cover;   /* 배경 이미지 크기 조정 */
+  background-position: center;  /* 배경 이미지 위치 조정 */
+}
+.spinner-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+
+  /* 블러 처리 핵심 */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  background-color: rgba(0, 0, 0, 0.2); /* 약간 밝기 추가 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

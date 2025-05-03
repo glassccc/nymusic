@@ -1,0 +1,23 @@
+{
+    "name": "My Web App",
+    "short_name": "WebApp",
+    "start_url": "/",
+    "display": "standalone",  // 주소창 없는 앱처럼 보이게
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "/icon-192.png",  // 192x192px 아이콘
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon-512.png",  // 512x512px 아이콘
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "apple-mobile-web-app-status-bar-style": "white",  // iOS 상태바 색상 설정
+    "apple-mobile-web-app-capable": true
+  }
+  
