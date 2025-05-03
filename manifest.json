@@ -7,12 +7,12 @@
     "theme_color": "#ffffff",
     "icons": [
       {
-        "src": "/icon-192.png",  // 192x192px 아이콘
+        "src": "/nymusic/icon-192.png",  // 192x192px 아이콘
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "/icon-512.png",  // 512x512px 아이콘
+        "src": "/nymusic/icon-512.png",  // 512x512px 아이콘
         "sizes": "512x512",
         "type": "image/png"
       }
